@@ -66,6 +66,7 @@ class Show_Page_Content_Widget extends WP_Widget {
 		<p>
 			<label for="<?php echo $this->get_field_id( 'content_after' ); ?>">Extra content after:</label>
 			<textarea class="widefat" rows="16" cols="20" id="<?php echo $this->get_field_id('content_after'); ?>" name="<?php echo $this->get_field_name('content_after'); ?>"><?php echo $content_after; ?></textarea>
+            Allowed tags: <code>&lt;p&gt;</code><code>&lt;a&gt;</code>
 		</p>
 		<?php
     }
